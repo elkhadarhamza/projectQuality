@@ -1,0 +1,61 @@
+/* App.css */
+
+.barre-de-choix {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.choix {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.choix:hover {
+  background-color: #f0f0f0;
+}
+
+.choix.actif {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Ajoutez ici d'autres styles selon vos besoins */
+/* App.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.barre-de-choix {
+  display: flex;
+  justify-content: center;
+}
+
+.choix {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.choix:hover {
+  background-color: #f0f0f0;
+}
+
+.choix.actif {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Ajoutez ici d'autres styles selon vos besoins */
